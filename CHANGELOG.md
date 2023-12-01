@@ -1,3 +1,9 @@
+## 0.2.1 (Beta)
+
+Changed:
+- Dependency updates
+
+
 ## 0.2.0 (Beta)
 
 Changed:
@@ -19,7 +25,6 @@ Fixed:
 
 
 ## 0.1.1 (Beta)
-
 SPELLING:
 - Rename Flavor to Flavour to represent the same spelling as the API
 
