@@ -5,7 +5,7 @@ go 1.18
 require (
 	buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go v1.31.0-20231109125057-5a1e78133adc.2
 	github.com/G-PORTAL/gpcloud-go v0.0.0-20230829110000-6fc1530a71a1
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.4.0
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
 	github.com/hashicorp/terraform-plugin-framework v1.2.0
 	github.com/hashicorp/terraform-plugin-log v0.8.0
