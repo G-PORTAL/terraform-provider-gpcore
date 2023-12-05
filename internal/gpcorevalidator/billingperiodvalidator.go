@@ -1,7 +1,7 @@
 package gpcorevalidator
 
 import (
-	cloudv1 "buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go/gpcloud/api/cloud/v1"
+	cloudv1 "buf.build/gen/go/gportal/gpcore/protocolbuffers/go/gpcore/api/cloud/v1"
 	"context"
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"

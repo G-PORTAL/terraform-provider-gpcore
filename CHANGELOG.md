@@ -1,3 +1,8 @@
+## 0.2.2 (Beta)
+
+Changed:
+- Replaced gpcloud lib by gpcore
+
 ## 0.2.1 (Beta)
 
 Changed:

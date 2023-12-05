@@ -1,8 +1,8 @@
-buf.build/gen/go/gportal/gportal-cloud/grpc/go v1.3.0-20231109125057-5a1e78133adc.2 h1:xSyihKQp9D4OZOWrmriF/er9Gmx6gy6r8ZNUALTfCXU=
-buf.build/gen/go/gportal/gportal-cloud/grpc/go v1.3.0-20231109125057-5a1e78133adc.2/go.mod h1:B+VEWJh2mgFENzTwW1id65H4KlU19kjwOFOHORMP57M=
-buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go v1.28.1-20231109125057-5a1e78133adc.4/go.mod h1:i79EhSPYzSdyy1aIb7EYriGb79IEL5zCkRfFb++j0vo=
-buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go v1.31.0-20231109125057-5a1e78133adc.2 h1:7p014a5RuTCVh19p9ikPTjhspspnm2MlhZkcxEsTnH4=
-buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go v1.31.0-20231109125057-5a1e78133adc.2/go.mod h1:r7fMCGO8lb+iKQnLT6jnTHUFfKDKChAuU8WwXFLuhxs=
+buf.build/gen/go/gportal/gpcore/grpc/go v1.3.0-20231205131303-5896269704d6.2 h1:gfkkktN++96Po98tZgMGTXIee515+zxMb9Qa2j8Bg0g=
+buf.build/gen/go/gportal/gpcore/grpc/go v1.3.0-20231205131303-5896269704d6.2/go.mod h1:P9wCpfltpNfhdQEZvPFN0CRSQqZKlvqTP3Rd5lfEiiQ=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.28.1-20231205131303-5896269704d6.4/go.mod h1:h3wtxRcqIy+Dj8bh/VOIES6GkH7fPyndyJWU3Ay8hLc=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2 h1:utP4BL6GfgZlHq5HLYM0KYS62Rwxq5UicmYhpkWIEDQ=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2/go.mod h1:B0pDyworw7lVwD3TPT0VCvizR8/UUAcxP+2XE71ZzqQ=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/grpc/go v1.3.0-20221127060915-a1ecdc58eccd.2/go.mod h1:AyYRpZBNAzxOhzaY02jFxL+P7eINiIju6BdSZyi1q7o=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/protocolbuffers/go v1.28.1-20221127060915-a1ecdc58eccd.4/go.mod h1:92ejKVTiuvnKoAtRlpJpIxKfloI935DDqhs0NCRx+KM=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/protocolbuffers/go v1.31.0-20221127060915-a1ecdc58eccd.2/go.mod h1:/j/LOrpev/FdyGhdj/sOc0peUf2KR0y4nMmLp4t1g14=
@@ -395,8 +395,8 @@ cloud.google.com/go/workflows v1.9.0/go.mod h1:ZGkj1aFIOd9c8Gerkjjq7OW7I5+l6cSvT
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/G-PORTAL/gpcloud-go v0.0.0-20230829110000-6fc1530a71a1 h1:ihy0qpIIgrFZEL5jxHqXLhkjeO3CxsrHhy0ZXjrkxBE=
-github.com/G-PORTAL/gpcloud-go v0.0.0-20230829110000-6fc1530a71a1/go.mod h1:vxqL8hML5SAZLJdEr/J4xNOdQ+bzQ/QasTpXnKjIWDg=
+github.com/G-PORTAL/gpcore-go v0.0.0-20231205133907-536970ea6668 h1:zCVaAtqNf/VESJ7z6eix6v+gTn4tAs+JbYRZnJhU218=
+github.com/G-PORTAL/gpcore-go v0.0.0-20231205133907-536970ea6668/go.mod h1:mozTClGUawZLI60L369g4LwL43+EeeeHcuTMoQCMCKQ=
 github.com/Masterminds/goutils v1.1.1 h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI=
 github.com/Masterminds/goutils v1.1.1/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=
 github.com/Masterminds/semver/v3 v3.1.1 h1:hLg3sBzpNErnxhQtUy/mmLR2I9foDujNK030IGemrRc=

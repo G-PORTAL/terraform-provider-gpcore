@@ -1,10 +1,10 @@
 package provider
 
 import (
-	cloudv1 "buf.build/gen/go/gportal/gportal-cloud/protocolbuffers/go/gpcloud/api/cloud/v1"
+	cloudv1 "buf.build/gen/go/gportal/gpcore/protocolbuffers/go/gpcore/api/cloud/v1"
 	"context"
 	"fmt"
-	"github.com/G-PORTAL/gpcloud-go/pkg/gpcloud/client"
+	"github.com/G-PORTAL/gpcore-go/pkg/gpcore/client"
 	"github.com/G-PORTAL/terraform-provider-gpcore/internal/gpcorevalidator"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"

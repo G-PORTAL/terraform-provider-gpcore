@@ -2,8 +2,8 @@ package provider
 
 import (
 	"context"
-	client2 "github.com/G-PORTAL/gpcloud-go/pkg/gpcloud/client"
-	"github.com/G-PORTAL/gpcloud-go/pkg/gpcloud/client/auth"
+	client2 "github.com/G-PORTAL/gpcore-go/pkg/gpcore/client"
+	"github.com/G-PORTAL/gpcore-go/pkg/gpcore/client/auth"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
