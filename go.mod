@@ -5,7 +5,7 @@ go 1.21
 require (
 	buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2
 	github.com/G-PORTAL/gpcore-go v0.0.0-20231205133907-536970ea6668
-	github.com/google/uuid v1.4.0
+	github.com/google/uuid v1.5.0
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
 	github.com/hashicorp/terraform-plugin-framework v1.4.2
 	github.com/hashicorp/terraform-plugin-log v0.9.0
