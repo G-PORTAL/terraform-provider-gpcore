@@ -3,7 +3,7 @@ module github.com/G-PORTAL/terraform-provider-gpcore
 go 1.21
 
 require (
-	buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2
+	buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231214151246-fc049535d7b1.2
 	github.com/G-PORTAL/gpcore-go v0.0.0-20231205133907-536970ea6668
 	github.com/google/uuid v1.4.0
 	github.com/hashicorp/terraform-plugin-docs v0.14.1

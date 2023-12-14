@@ -1,8 +1,8 @@
 buf.build/gen/go/gportal/gpcore/grpc/go v1.3.0-20231205131303-5896269704d6.2 h1:gfkkktN++96Po98tZgMGTXIee515+zxMb9Qa2j8Bg0g=
 buf.build/gen/go/gportal/gpcore/grpc/go v1.3.0-20231205131303-5896269704d6.2/go.mod h1:P9wCpfltpNfhdQEZvPFN0CRSQqZKlvqTP3Rd5lfEiiQ=
 buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.28.1-20231205131303-5896269704d6.4/go.mod h1:h3wtxRcqIy+Dj8bh/VOIES6GkH7fPyndyJWU3Ay8hLc=
-buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2 h1:utP4BL6GfgZlHq5HLYM0KYS62Rwxq5UicmYhpkWIEDQ=
-buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231205131303-5896269704d6.2/go.mod h1:B0pDyworw7lVwD3TPT0VCvizR8/UUAcxP+2XE71ZzqQ=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231214151246-fc049535d7b1.2 h1:rHKcid5IP2BpgLMc59akALn3vgj44XenpvHXLJractc=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.31.0-20231214151246-fc049535d7b1.2/go.mod h1:B0pDyworw7lVwD3TPT0VCvizR8/UUAcxP+2XE71ZzqQ=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/grpc/go v1.3.0-20221127060915-a1ecdc58eccd.2/go.mod h1:AyYRpZBNAzxOhzaY02jFxL+P7eINiIju6BdSZyi1q7o=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/protocolbuffers/go v1.28.1-20221127060915-a1ecdc58eccd.4/go.mod h1:92ejKVTiuvnKoAtRlpJpIxKfloI935DDqhs0NCRx+KM=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/protocolbuffers/go v1.31.0-20221127060915-a1ecdc58eccd.2/go.mod h1:/j/LOrpev/FdyGhdj/sOc0peUf2KR0y4nMmLp4t1g14=
