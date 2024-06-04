@@ -96,9 +96,11 @@ func (d *FlavourDataSource) Read(ctx context.Context, req datasource.ReadRequest
 	if resp.Diagnostics.HasError() {
 		return
 	}
+	includeSoldOut := true
 	flavourList, err := d.client.CloudClient().ListProjectFlavours(context.Background(), &cloudv1.ListProjectFlavoursRequest{
-		Id:           data.ProjectID.ValueString(),
-		DatacenterId: data.DatacenterID.ValueString(),
+		Id:             data.ProjectID.ValueString(),
+		DatacenterId:   data.DatacenterID.ValueString(),
+		IncludeSoldOut: &includeSoldOut,
 	})
 	if err != nil {
 		resp.Diagnostics.AddError("Error fetching flavour list", err.Error())
