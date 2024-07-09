@@ -7,7 +7,7 @@ require (
 	github.com/G-PORTAL/gpcore-go v0.0.0-20240122103833-6af7e686f119
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
-	github.com/hashicorp/terraform-plugin-framework v1.8.0
+	github.com/hashicorp/terraform-plugin-framework v1.10.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc
 	google.golang.org/grpc v1.64.0
