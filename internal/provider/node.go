@@ -1,9 +1,12 @@
 package provider
 
 import (
-	cloudv1 "buf.build/gen/go/gportal/gpcore/protocolbuffers/go/gpcore/api/cloud/v1"
 	"context"
 	"fmt"
+	"strings"
+	"time"
+
+	cloudv1 "buf.build/gen/go/gportal/gpcore/protocolbuffers/go/gpcore/api/cloud/v1"
 	"github.com/G-PORTAL/gpcore-go/pkg/gpcore/client"
 	"github.com/G-PORTAL/terraform-provider-gpcore/internal/gpcorevalidator"
 	"github.com/hashicorp/terraform-plugin-framework/path"
@@ -16,7 +19,6 @@ import (
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"time"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.
@@ -262,19 +264,26 @@ func (r *Node) Read(ctx context.Context, req resource.ReadRequest, resp *resourc
 	if resp.Diagnostics.HasError() {
 		return
 	}
-	if !data.Id.IsNull() {
+	if !data.Id.IsNull() && !data.ProjectID.IsNull() {
 		nodeResponse, err := r.client.CloudClient().GetNode(context.Background(), &cloudv1.GetNodeRequest{
 			Id:        data.Id.ValueString(),
 			ProjectId: data.ProjectID.ValueString(),
 		})
 		if err != nil {
-			resp.Diagnostics.AddError("Client Error", fmt.Sprintf("Unable to get node, got error: %s", err))
+			statusCode := status.Code(err)
+			if statusCode == codes.NotFound {
+				resp.Diagnostics.AddWarning("node not found", fmt.Sprintf("Node with ID %s not found in the project %s. It has been removed from the state.", data.Id.ValueString(), data.ProjectID.ValueString()))
+				resp.State.RemoveResource(ctx)
+			} else {
+				resp.Diagnostics.AddError("Client Error", fmt.Sprintf("Unable to get node, got error: %s", err))
+			}
 			return
 		}
 		data.write(nodeResponse.Node)
 
 		resp.Diagnostics.Append(resp.State.Set(ctx, &data)...)
-		return
+	} else {
+		resp.Diagnostics.AddError("Invalid State", "Node ID or Project ID is missing from the state")
 	}
 }
 
@@ -338,7 +347,20 @@ func (r *Node) Delete(ctx context.Context, req resource.DeleteRequest, resp *res
 }
 
 func (r *Node) ImportState(ctx context.Context, req resource.ImportStateRequest, resp *resource.ImportStateResponse) {
-	resource.ImportStatePassthroughID(ctx, path.Root("id"), req, resp)
+	ids := strings.Split(req.ID, ":")
+	if len(ids) != 2 {
+		resp.Diagnostics.AddError(
+			"Invalid Import ID",
+			"Expected import ID format: project_id:node_id",
+		)
+		return
+	}
+
+	projectID := ids[0]
+	nodeID := ids[1]
+
+	resp.State.SetAttribute(ctx, path.Root("project_id"), projectID)
+	resp.State.SetAttribute(ctx, path.Root("id"), nodeID)
 }
 
 func (nodeModel *NodeModel) getPrimaryIP(node *cloudv1.Node) *string {
