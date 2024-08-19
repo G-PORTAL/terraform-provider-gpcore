@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/terraform-plugin-framework v1.8.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc
-	google.golang.org/grpc v1.64.0
+	google.golang.org/grpc v1.65.0
 )
 
 require (
