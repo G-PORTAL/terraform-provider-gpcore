@@ -5,8 +5,8 @@ buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.34.2-2024040116593
 buf.build/gen/go/gportal/gpcore/grpc/go v1.4.0-20240524152333-1277498b82aa.1 h1:AyxCJ5tWDMiqlm0sNS/3WThhuRFdtoFYvtRsk62asZ0=
 buf.build/gen/go/gportal/gpcore/grpc/go v1.4.0-20240524152333-1277498b82aa.1/go.mod h1:s0FWLqR8HiJeHBdyf7gnSF/myXZxi9UAd05cFJVnAFY=
 buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.1-20240524152333-1277498b82aa.1/go.mod h1:gVDHT3Al8/4lU+hTAqELRpoNmNZMPfMTm9sc8tIP5Iw=
-buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.2-20240806074725-dc7aa45201d9.2 h1:ElJPw23H8FnoSe8CvNzI2211fTRF0xmCiVI/aEBcH+8=
-buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.2-20240806074725-dc7aa45201d9.2/go.mod h1:L5027rwxfNcnsS2o1u266T9rQ2pQFfaBtPszPrWwEUs=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.2-20240819091935-cc1f2a4aef6b.2 h1:DBWNpu94XnaH/tJfnwJN9iNxqZI2baHxDkQCk289VYE=
+buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.2-20240819091935-cc1f2a4aef6b.2/go.mod h1:L5027rwxfNcnsS2o1u266T9rQ2pQFfaBtPszPrWwEUs=
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.38.0/go.mod h1:990N+gfupTy94rShfmMCWGDn0LpTmnzTp2qbd1dvSRU=
