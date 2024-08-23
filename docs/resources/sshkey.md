@@ -28,5 +28,3 @@ In case the SSH Key already exists remotely, use the `import` command provided b
 - `fingerprint` (String) SSHKey Fingerprint
 - `id` (String) SSHKey ID
 - `ssh_key_type` (String) Type of the SSH Key
-
-

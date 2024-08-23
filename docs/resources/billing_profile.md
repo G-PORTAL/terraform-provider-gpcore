@@ -38,5 +38,3 @@ Each billing profile is receiving their own invoice at the end of the billing pe
 ### Read-Only
 
 - `id` (String) The ID of the Billing Profile
-
-

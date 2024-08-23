@@ -27,5 +27,3 @@ The name is the name of the Flavour as it appears in the G-PORTAL Cloud Control 
 ### Read-Only
 
 - `id` (String) Flavour ID
-
-

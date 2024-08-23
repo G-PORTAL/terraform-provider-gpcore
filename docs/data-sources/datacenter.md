@@ -29,5 +29,3 @@ The short name is the short of the Datacenter as it appears in the G-PORTAL Clou
 - `name` (String) Name of the datacenter
 - `region_id` (String) Region ID of the datacenter
 - `server_prefix` (String) Prefix that can be used to for server names
-
-

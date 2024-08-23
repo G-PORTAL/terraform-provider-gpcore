@@ -39,5 +39,3 @@ Changing the Nodes Image ID will cause the Node to be destroyed and recreated.
 - `id` (String) Node ID
 - `ip` (String) IP Address of the node
 - `status` (String) Node Status
-
-

@@ -27,5 +27,3 @@ The resulting UUID can be used to provision nodes.
 
 - `authentication_types` (List of String) List of valid authentication methods
 - `id` (String) Image ID
-
-
