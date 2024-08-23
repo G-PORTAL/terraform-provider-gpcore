@@ -30,5 +30,3 @@ Each project can have its own billing address, payment methods, members or envir
 ### Read-Only
 
 - `id` (String) Project ID
-
-

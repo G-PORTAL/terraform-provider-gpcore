@@ -29,5 +29,3 @@ be used. In case a direct access grant authentication method is available, you m
 - `description` (String) Description of the Project
 - `environment` (String) Project Environment
 - `name` (String) Name of the Project
-
-

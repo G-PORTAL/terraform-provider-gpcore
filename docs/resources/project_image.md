@@ -29,5 +29,3 @@ please check out the documentation [here](https://docs.g-portal.cloud/operations
 ### Read-Only
 
 - `id` (String) ProjectImage ID
-
-
