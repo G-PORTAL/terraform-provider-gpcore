@@ -1,6 +1,7 @@
 module github.com/G-PORTAL/terraform-provider-gpcore
 
 go 1.21
+toolchain go1.22.9
 
 require (
 	buf.build/gen/go/gportal/gpcore/protocolbuffers/go v1.34.2-20240819091935-cc1f2a4aef6b.2
@@ -10,7 +11,7 @@ require (
 	github.com/hashicorp/terraform-plugin-framework v1.11.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc
-	google.golang.org/grpc v1.65.0
+	google.golang.org/grpc v1.68.0
 )
 
 require (
@@ -69,12 +70,12 @@ require (
 	github.com/yuin/goldmark-meta v1.1.0 // indirect
 	github.com/zclconf/go-cty v1.14.4 // indirect
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
-	golang.org/x/crypto v0.23.0 // indirect
+	golang.org/x/crypto v0.27.0 // indirect
 	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
